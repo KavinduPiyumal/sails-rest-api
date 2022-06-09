@@ -9,5 +9,9 @@
  */
 
 module.exports.routes = {
-    'post /create': "TodolistController.create",
+    'POST /todolist': "TodolistController.create",
+    'GET /todolist':"TodolistController.find",
+    'GET /todolist/:id':"TodolistController.findOne",
+    'PATCH /todolist/:id':"TodolistController.update",
+    'DELETE /todolist/:id':"TodolistController.delete",
 };

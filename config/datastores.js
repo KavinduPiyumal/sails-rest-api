@@ -50,14 +50,14 @@ module.exports.datastores = {
     ***************************************************************************/
     // adapter: 'sails-mysql',
     // url: 'mysql://user:password@host:port/database',
-    // adapter: 'sails-mongo',
-    // url:'mongodb+srv://kavi:kavi@cluster0.vdndp.mongodb.net/todolist'
+    adapter: 'sails-mongo',
+    url:'mongodb+srv://kavi:kavi@cluster0.vdndp.mongodb.net/todolist'
 
 
-      adapter:'sails-mongo',
-      host:'localhost',
-      port:'27017',
-      database:'todolist'
+      // adapter:'sails-mongo',
+      // host:'localhost',
+      // port:'27017',
+      // database:'todolist'
 
 
   },
